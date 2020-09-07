@@ -1,0 +1,7 @@
+#Start by making the OpenOPC library available to your application. This imports the OpenOPC.py module file located in the lib/site-packages/ directory.
+import OpenOPC
+
+opc = OpenOPC.client()
+
+opc = OpenOPC.open_client('localhost')
+
